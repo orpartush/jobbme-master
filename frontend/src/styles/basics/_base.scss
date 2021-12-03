@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  width: 100vw;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-image: $bg-clr;
+  font-family: MulishRegular;
+}
+
+button {
+  font-family: MulishRegular, 'sans-serif';
+  &:hover {
+    cursor: pointer;
+  }
+}
+input {
+  font-family: Mulish, 'sans-serif';
+}
+select {
+  &:hover {
+    cursor: pointer;
+  }
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+p {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+.app {
+  min-height: 100vh;
+}

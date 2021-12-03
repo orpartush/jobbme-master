@@ -1,0 +1,11 @@
+.home {
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  margin: calc((100vh - 700px) / 2) auto;
+  .content-layout {
+    width: 1040px;
+    padding-block-end: 20px;
+  }
+}

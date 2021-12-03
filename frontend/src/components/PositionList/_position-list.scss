@@ -1,0 +1,36 @@
+.position-list {
+  position: relative;
+  min-height: 500px;
+  .no-positions {
+    height: 460px;
+    > p {
+      font-size: 40px;
+      color: $clr1;
+    }
+  }
+  .positions-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: max-content;
+    gap: 15px;
+    justify-items: center;
+    padding: 20px;
+    margin-block-end: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 500px;
+    @include for-scroll-bar;
+  }
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s ease;
+  }
+
+  .fade-enter-from,
+  .fade-leave-to {
+    opacity: 0;
+  }
+  pre {
+    position: absolute;
+    font-size: 30px;
+  }
+}

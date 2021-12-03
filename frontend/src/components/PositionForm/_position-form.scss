@@ -1,0 +1,44 @@
+.position-form {
+  margin: 0;
+  input,
+  textarea {
+    border-radius: 13px;
+    border: none;
+    font-family: MulishRegular;
+    margin-block-end: 20px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  .inputs-wrapper {
+    > input {
+      width: 49%;
+    }
+    .answer {
+      width: 100%;
+    }
+  }
+  .answer-dropdown {
+    position: relative;
+    margin: 0 10px 20px 0;
+    height: 37px;
+    > label {
+      width: 100px;
+    }
+    > select {
+      border-radius: 7px;
+      border: none;
+      font-family: MulishRegular;
+      background-color: #fff;
+      padding: 5px;
+      option {
+        border-radius: 7px;
+      }
+    }
+  }
+  .description {
+    resize: none;
+  }
+  .submit-btn {
+    @include for-btn;
+  }
+}

@@ -1,0 +1,20 @@
+.login {
+  .title {
+    @include for-title;
+    margin-block-end: 10px;
+  }
+  > input {
+    background-color: rgba($color: #fff, $alpha: 0.7);
+    border-radius: 14px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px -1px rgb(226, 121, 121);
+    margin-block-start: 10px;
+    border: none;
+    width: 300px;
+    font-family: MulishRegular;
+  }
+  > button {
+    @include for-btn;
+    margin: 10px 0 5px;
+  }
+}

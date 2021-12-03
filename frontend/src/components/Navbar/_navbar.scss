@@ -1,0 +1,48 @@
+.navbar {
+  width: 200px;
+  background-color: rgba($color: #fff, $alpha: 0.3);
+  border-radius: 30px 0 0 30px;
+  display: inline-block;
+  .logo-container {
+    background-color: $clr1;
+    justify-self: flex-start;
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 30px;
+    a {
+      font-family: KaushanScript;
+      font-size: 40px;
+      font-weight: bold;
+      color: #fff;
+      position: relative;
+      &::before {
+        content: 'by Or for Shalhevet.';
+        color: #fff;
+        font-size: 11px;
+        font-weight: lighter;
+        position: absolute;
+        bottom: -5px;
+        left: 18px;
+        width: 100px;
+      }
+    }
+  }
+  .links-container {
+    margin-block-start: 30px;
+    > * {
+      margin-block-end: 30px;
+    }
+    .add-position-link {
+      > a {
+        position: relative;
+        &::before {
+          content: '+';
+          position: absolute;
+          top: -4px;
+          left: -15px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

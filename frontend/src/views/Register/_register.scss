@@ -1,0 +1,28 @@
+.register {
+  .title {
+    @include for-title;
+    margin-block-end: 10px;
+  }
+  > input {
+    background-color: rgba($color: #fff, $alpha: 0.7);
+    border-radius: 14px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px -1px rgb(226, 121, 121);
+    margin-block-start: 10px;
+    border: none;
+    width: 300px;
+    font-family: MulishRegular;
+  }
+  .confirm-input {
+    margin-block-end: 10px;
+  }
+  > button {
+    @include for-btn;
+    margin: 0 0 5px;
+  }
+  .submit-error {
+    color: $clr1;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}

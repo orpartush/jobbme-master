@@ -1,0 +1,22 @@
+/// Dark color palette
+$dark-clr1: #2e325c; //inner bg
+$dark-clr2: #202443;
+$dark-clr3: #bfc4ed; //outter bg
+$dark-txt-clr1: #747aa9;
+$dark-txt-clr2: #d9daf0;
+
+/// Box shadow
+$shadow: 0px 5px 20px -1px rgb(219, 219, 219);
+$inner-shadow: 0px 10px 10px -10px #e0e0e0;
+
+//quizocode's vars
+// Color palette
+$bg-clr: linear-gradient(to right, #fd6585 0%, #ffd3a5 90%);
+$bg-hover: linear-gradient(to right, #ffd3a5 0%, #fd6585 90%);
+$txt-clr: #161b40;
+$clr1: darken(#fd6585, 10%);
+$shadow-clr: #fd6585;
+
+// //Box shadow
+// $shadow: 0px 5px 20px -1px rgb(219, 219, 219);
+// $inner-shadow: 0px 10px 10px -10px #e0e0e0;
